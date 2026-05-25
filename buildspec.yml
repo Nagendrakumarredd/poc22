@@ -18,4 +18,4 @@ phases:
       - zip -r app.zip .
 
       - echo "Uploading to S3..."
-      - aws s3 cp app.zip s3://poc22-bucket/app.zip
+      - aws s3 cp app.zip s3://poc22-bucket123/app.zip
